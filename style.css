@@ -2,12 +2,19 @@
 
 body{
     font-family: Roboto,sans-serif;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
     overflow: hidden;
-    margin: 0;
-
+    margin: 5%;
+    background-color: #103344;
+    color: #fafafa;
 }    
+.row .col-4 a {
+    text-decoration: none;
+}
+
+.row .col-4 .inner-box {
+    box-shadow: 5px 5px 5px 5px lightblue;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
